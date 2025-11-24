@@ -7,6 +7,7 @@ Everything lives in one structured place so I can reuse, refine, and expand prom
 ***
 
 **🗂️ Repository Overview**
+```
 prompt-vault/
 ├─ prompts/
 │  ├─ writing/        # Fiction, poetry, Bengali prose, creative writing
@@ -16,6 +17,7 @@ prompt-vault/
 │  └─ misc/           # Experiments or random prompts
 ├─ templates/         # Base templates (system, few-shot, structured output)
 └─ index.md           # Manual list of all prompts
+```
 
 ***
 
