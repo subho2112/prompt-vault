@@ -1,15 +1,12 @@
 ```markdown
 # 🧰 Prompt Vault
-
 A clean, organized collection of reusable prompts for writing, coding, chat personas, utilities, and experiments.  
 Everything lives in one structured place so I can reuse, refine, and expand prompts easily.
 
----
-
-## 🗂️ Repository Overview
-
 ```
+***
 
+**🗂️ Repository Overview**
 prompt-vault/
 ├─ prompts/
 │  ├─ writing/        # Fiction, poetry, Bengali prose, creative writing
@@ -20,14 +17,10 @@ prompt-vault/
 ├─ templates/         # Base templates (system, few-shot, structured output)
 └─ index.md           # Manual list of all prompts
 
-````
+***
 
----
-
-## 🔧 YAML Metadata Example
-
-Use this as a standard metadata block for any prompt:
-
+**🔧 YAML Metadata Example**
+This is a standard metadata block for any prompt:
 ```yaml
 id: writing/bengali-melancholy
 title: Bengali Melancholic Prose
@@ -37,11 +30,11 @@ author: Subho
 updated: 2025-11-24
 ````
 
-Paste this at the top of any prompt `.md` file if you want consistent structure.
+Paste this at the top of any prompt `.md` file to get consistent structure.
 
----
+***
 
-## 🎯 Purpose
+**🎯 Purpose**
 
 * Keep all prompts organized
 * Reuse prompts across ChatGPT, Claude, VS Code, terminal tools
@@ -52,63 +45,42 @@ Paste this at the top of any prompt `.md` file if you want consistent structure.
 
 ---
 
-## 📝 Usage
-
+**📝 Usage**
 * Browse the `prompts/` folder
 * Open any `.md` file and copy the prompt
 * Create new prompt files using template examples
 * Update `index.md` whenever new prompts are added
 * Use `templates/` for starting a fresh prompt
 
----
+***
 
-## ✨ Categories
+**✨Categories**
 
-### **Writing**
-
+ **Writing**
 Fiction, creative prose, poetry, Bengali storytelling, styles, narrative structures.
 
-### **Coding**
-
+ **Coding**
 Debugging, refactoring, code generation, documentation helpers.
 
-### **Chat / Personas**
-
+**Chat / Personas**
 Assistant personalities, tone settings, communication modes, conversation styles.
 
-### **Tools**
-
+**Tools**
+```
 Utilities:
-
 * summarizers
 * JSON cleaners
 * extractors
 * transformers
-
-### **Misc**
-
+```
+**Misc**
 Uncategorized experiments, drafts, ideas.
 
----
-
-## 🧱 Templates
-
+***
+**🧱 Templates**
 Basic prompt templates inside `templates/`:
-
-* **system.md** → role/persona instructions
-* **few-shot.md** → examples for training
-* **structured-output.md** → JSON/table output constraints
-
+**system.md** → role/persona instructions
+**few-shot.md** → examples for training
+**structured-output.md** → JSON/table output constraints
 Use these to keep prompts consistent.
-
----
-
-## 📌 Notes
-
-* Straightforward Markdown format
-* No unnecessary metadata or complexity
-* Minimal, readable, expandable
-* Everything stored in a single organized vault
-
----
-
+***
