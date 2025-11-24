@@ -86,5 +86,3 @@ Basic prompt templates inside `templates/`:
 **structured-output.md** → JSON/table output constraints
 Use these to keep prompts consistent.
 ***
-
-test/v2
