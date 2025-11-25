@@ -1,4 +1,5 @@
 I need you to act as an expert tutor and create a comprehensive set of study notes for me. Please follow these instructions precisely.
+use imojis for intaractive notes
 
 *1. Module & Course Details:*
 * *Subject:*
@@ -38,4 +39,5 @@ Please generate notes for the following topics in the order listed:
 Optional (If available):
 * Link notes to any prescribed textbooks or reference materials.
 * Highlight which topics are most frequently asked in exams or carry the most weight.
+
 * For diagrams use Graphviz/Dot and modern UI format
